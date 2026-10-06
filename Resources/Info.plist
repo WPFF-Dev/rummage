@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleName</key><string>Rummage</string>
+	<key>CFBundleDisplayName</key><string>Rummage</string>
+	<key>CFBundleIdentifier</key><string>dev.wpff.Rummage</string>
+	<key>CFBundleExecutable</key><string>Rummage</string>
+	<key>CFBundleIconFile</key><string>AppIcon</string>
+	<key>CFBundlePackageType</key><string>APPL</string>
+	<key>CFBundleShortVersionString</key><string>1.2.0</string>
+	<key>CFBundleVersion</key><string>3</string>
+	<key>CFBundleDevelopmentRegion</key><string>en</string>
+	<key>CFBundleLocalizations</key><array><string>en</string><string>ru</string></array>
+	<key>LSMinimumSystemVersion</key><string>14.0</string>
+	<key>LSUIElement</key><true/>
+	<key>NSHighResolutionCapable</key><true/>
+	<key>NSAppleEventsUsageDescription</key><string>Rummage asks Finder which folder is open so it can search inside it and show found files there.</string>
+</dict>
+</plist>
