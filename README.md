@@ -34,6 +34,18 @@ Needs only the Xcode Command Line Tools (`xcode-select --install`).
 ./build.sh dist      # build and zip into dist/ for sharing
 ```
 
+### Notarized releases (maintainers)
+
+`./build.sh release` signs with a Developer ID certificate (hardened runtime, `Resources/Rummage.entitlements`
+allows the Apple Events to Finder), sends the zip to Apple's notary service, staples the ticket and re-zips,
+so the app opens on any Mac without a warning. One-time setup:
+
+1. Apple Developer Program membership.
+2. A **Developer ID Application** certificate in the login keychain
+   (developer.apple.com → Certificates → +, with a CSR from Keychain Access → Certificate Assistant).
+3. An app-specific password (account.apple.com → Sign-In and Security), then
+   `xcrun notarytool store-credentials rummage --apple-id <apple id> --team-id <TEAM ID>` (prompts for it).
+
 ## Usage
 
 - By default the shortcut exists only while Finder is in front, so other apps keep ⌥⌘F. Change it in the menu
