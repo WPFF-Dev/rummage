@@ -1,3 +1,7 @@
+> [!IMPORTANT]
+> **Rummage has moved to [github.com/ViaFirst/rummage](https://github.com/ViaFirst/rummage).** This copy is archived; new versions and issues are there.
+> Latest download: [Rummage for macOS](https://github.com/ViaFirst/rummage/releases/latest).
+
 # Rummage
 
 **Fast file search inside the folder that is open in Finder.** Press a shortcut in Finder and a Spotlight-style
